@@ -58,7 +58,7 @@ const App = function () {
 
   // Receiving the data from the server in real time
   useEffect(() => {
-    console.log("useEffect");
+    // console.log("useEffect");
     setLocation("/dic");
     if (lastMessage !== null) {
       const data = JSON.parse(lastMessage.data);
